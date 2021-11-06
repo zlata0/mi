@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+.main {
+  background-color: #627568;
+  width: 1885px;
+  height: 2000px;
+}
+#lol {
+  background-color: #42614c;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url(./fon.jpg);
+  opacity: 0.7;
+  background-size: contain;
+  text-align: left;
+  margin-top: 30px;
+  padding-top: 20px;
+  width: 1885px;
+  height: 500px;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: oblique;
+  font-family: ROBOTO, "Times New Roman", Times, serif;
+}
+/* main p {
+    background: url(./rihc.jpg) no-repeat cover;
+} */
+.go {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  background-color: rgb(255, 237, 224);
+  border: 1px dotted rgb(235, 144, 9);
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: ROBOTO, "Times New Roman", Times, serif;
+  border-radius: 50px 50px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  text-transform: capitalize;
+  background-image: url(./rihc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ro {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  background-image: url(./rrrrr.jpg);
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: ROBOTO, "Times New Roman", Times, serif;
+  border-radius: 50px 50px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  text-transform: capitalize;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
