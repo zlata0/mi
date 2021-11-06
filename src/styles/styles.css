@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
+
+/* загугли про селектор ниже */
+*{
+  box-sizing: border-box;
+}
+
 .main {
   background-color: #627568;
   width: 1885px;
@@ -20,14 +26,11 @@
   font-size: 70px;
   font-weight: 900;
   font-style: oblique;
-  font-family: ROBOTO, "Times New Roman", Times, serif;
+  font-family: Roboto, "Times New Roman", Times, serif;
 }
-/* main p {
-    background: url(./rihc.jpg) no-repeat cover;
-} */
 .go {
   display: flex;
-  justify-content: left;
+  justify-content: end;
   align-items: flex-end;
   background-color: rgb(255, 237, 224);
   border: 1px dotted rgb(235, 144, 9);
@@ -36,10 +39,10 @@
   font-size: 20px;
   font-weight: 700;
   font-style: italic;
-  font-family: ROBOTO, "Times New Roman", Times, serif;
+  font-family: Roboto, "Times New Roman", Times, serif;
   border-radius: 50px 50px;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: `;
   text-align: center;
   text-transform: capitalize;
   background-image: url(./rihc.jpg);
@@ -48,16 +51,17 @@
 }
 
 .ro {
+  /* Пройди игру флексбокс лягушки */
   display: flex;
-  justify-content: left;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   background-image: url(./rrrrr.jpg);
   margin: 20px;
   padding: 10px;
   font-size: 20px;
   font-weight: 700;
   font-style: italic;
-  font-family: ROBOTO, "Times New Roman", Times, serif;
+  font-family: Roboto, "Times New Roman", Times, serif;
   border-radius: 50px 50px;
   width: 200px;
   height: 200px;
